@@ -67,9 +67,9 @@
       loop: "{{ OPERATOR_VERSIONS }}" 
 
     - name: "Remove the file {{SUB}}"
-      shell:
-        cmd: " rm -f {{SUB}} "
-        removes: "{{SUB}}"
+      file:
+        path: "{{ SUB }}"
+        state: absent
 
     - name: "Remove the directory {{ olm_dir }}"
       file:
