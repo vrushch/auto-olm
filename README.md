@@ -59,8 +59,8 @@ OPERATOR_DIR:  /root/ibm-spectrum-scale-csi/operator/deploy/olm-catalog/ibm-spec
 ```
 ansible-playbook olm-test-playbook.yaml
 ```
-4. Go to operatorHub listing of your Openshift cluster and install operator
-   Verify using 
+4. Go to operatorhub listing of your Openshift cluster and install operator.
+   verify operator installtion using  
 ```
 oc get pod -n ibm-spectrum-scale-csi-driver
 ```
