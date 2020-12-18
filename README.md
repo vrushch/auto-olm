@@ -155,7 +155,7 @@ kubectl get ip -n ibm-spectrum-scale-csi-driver
 ```
 kubectl delete sub ibm-spectrum-scale-csi-sub -n ibm-spectrum-scale-csi-driver
 kubectl delete operatorgroup operatorgroup -n ibm-spectrum-scale-csi-driver
-kubectl delete namespace ibm-spectrum-scale-csi-driver ( before this delete the operator and driver)
+kubectl delete namespace ibm-spectrum-scale-csi-driver #( before this delete the operator and driver)
 kubectl delete catalogsource ibm-spectrum-scale-csi -n olm
 
 kubectl delete -f https://github.com/operator-framework/operator-lifecycle-manager/releases/download/0.13.0/crds.yaml
