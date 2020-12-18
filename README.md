@@ -73,6 +73,9 @@ oc patch OperatorHub cluster --type json -p '[{"op": "add", "path": "/spec/disab
 Repositories -> repository_name -> setting -> delete repository
 ```
 
+
+
+
 ## Following Steps are for kubernetes
 ### Pre-requisite: (kubernetes)
 
